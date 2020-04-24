@@ -11,10 +11,6 @@
   padding: 1em 10px;
 }
 
-.col {
-
-}
-
 %col {
   margin-top: 10px;
   flex-basis: 100%;
@@ -24,11 +20,12 @@
 }
 
 @each $theme, $color in $column-themes {
-  .theme.#{$theme} {
+  .theme.col-#{$theme} {
     background-color: $color;
     @extend %col;
   }
 }
+
 // [class^=col] {
 //   margin-top: 10px;
 //   flex-basis: 100%;
