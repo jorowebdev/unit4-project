@@ -401,6 +401,14 @@ a {
   padding: 1em 10px;
 }
 
+.theme.col-12, .theme.col-11, .theme.col-10, .theme.col-9, .theme.col-8, .theme.col-7, .theme.col-6, .theme.col-5, .theme.col-4, .theme.col-3, .theme.col-2, .theme.col-1 {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .theme.col-1 {
   background-color: #927bc1;
 }

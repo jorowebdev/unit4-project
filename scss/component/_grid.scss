@@ -26,6 +26,7 @@
 @each $theme, $color in $column-themes {
   .theme.#{$theme} {
     background-color: $color;
+    @extend %col;
   }
 }
 // [class^=col] {
