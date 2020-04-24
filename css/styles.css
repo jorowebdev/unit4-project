@@ -457,4 +457,8 @@ a {
   background-color: #80e8d1;
 }
 
+.card {
+  flex-basis: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */
