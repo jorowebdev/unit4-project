@@ -23,7 +23,11 @@
   border-radius: 5px;
 }
 
-
+@each $theme, $color in $column-themes {
+  .theme.#{$theme} {
+    background-color: $color;
+  }
+}
 // [class^=col] {
 //   margin-top: 10px;
 //   flex-basis: 100%;
