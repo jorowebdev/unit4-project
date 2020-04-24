@@ -2,9 +2,21 @@
 /*              Buttons                          */
 /* ============================================= */
 
+
+%btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
 @each $theme, $color in $button-themes {
   .#{$theme} {
     background-color: $color;
+    @extend %btn;
   }
 }
 
