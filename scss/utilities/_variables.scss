@@ -1,0 +1,40 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+// Colors
+$white: #fff;
+$color-text: #777;
+
+$color-primary: #58e1c1;
+$color-secondary: #51ddfc;
+
+$color-error: #e4757a;
+$color-info: #927bc1;
+$color-success: #63cc82;
+$color-warning: #fd7856;
+
+// Button colors
+$button-themes: (
+  'default': $color-secondary,
+  'error': $color-error,
+  'info': $color-info,
+  'success': $color-success,
+  'warning': $color-warning,
+);
+
+// Column colors
+$column-themes: (
+  col-1: $color-info,
+  col-2: $color-warning,
+  col-3: #deb2ee,
+  col-4: #7ee6fd,
+  col-5: #88d9a0,
+  col-6: #4da2bb,
+  col-7: #ec9fa3,
+  col-8: #fd9f85,
+  col-9: #e4757a,
+  col-10: $color-success,
+  col-11: $color-secondary,
+  col-12: #80e8d1,
+);
