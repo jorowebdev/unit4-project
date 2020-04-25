@@ -413,6 +413,7 @@ a {
 
 .default {
   background-color: #51ddfc;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .default:hover {
   background-color: #9cecfd;
@@ -420,6 +421,7 @@ a {
 
 .error {
   background-color: #e4757a;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .error:hover {
   background-color: #f1b5b8;
@@ -427,6 +429,7 @@ a {
 
 .info {
   background-color: #927bc1;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .info:hover {
   background-color: #bdafd9;
@@ -434,6 +437,7 @@ a {
 
 .success {
   background-color: #63cc82;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .success:hover {
   background-color: #9ddfb0;
@@ -441,6 +445,7 @@ a {
 
 .warning {
   background-color: #fd7856;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .warning:hover {
   background-color: #feb4a2;

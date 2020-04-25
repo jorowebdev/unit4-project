@@ -23,6 +23,7 @@
 @each $theme, $color in $button-themes {
   .#{$theme} {
     background-color: $color;
+    @include btn-hover;
     &:hover {
       background-color: lighten($color, 15%);
     }
