@@ -12,6 +12,9 @@
 .row {
   @include flexy($dir: column);
   padding: 1em 10px;
+  @include mq($break-m) {
+    flex-direction: row;
+  }
 }
 
 %col {
