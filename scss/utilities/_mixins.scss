@@ -36,3 +36,10 @@
     @content;
   }
 }
+
+// Button hover transition
+@mixin btn-hover {
+  transition:
+    background-color .2s ease-in-out,
+    color .2s ease-in-out;
+}
