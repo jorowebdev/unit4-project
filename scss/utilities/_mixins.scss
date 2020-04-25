@@ -36,8 +36,3 @@
     @content;
   }
 }
-
-// Lighten button hover affect 15%
-@mixin btn-hover($color) {
-  background-color: lighten($color, 15%);
-}
