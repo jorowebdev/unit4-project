@@ -6,6 +6,10 @@
   padding-left: 0;
   flex-basis: 100%;
   @include flexy($dir: column);
+  @include mq($break-m) {
+    @include flexy($dir: row, $just: flex-end);
+    align-items: center;
+  }
   &-link {
     text-align: center;
     border-radius: 5px;
@@ -15,6 +19,9 @@
     transition:
       background-color .2s ease-in-out,
       color .2s ease-in-out;
+    @include mq($break-m) {
+      flex-basis: 100px;
+    }
     &:hover {
       color: $white;
       background-color: $color-primary;
