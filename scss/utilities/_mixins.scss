@@ -15,7 +15,6 @@
 }
 
 // Create a centered element
-
 @mixin centered($style) {
   display: block;
   margin-left: auto;
@@ -29,4 +28,9 @@
   @else if $style == 'container' {
     max-width: 1400px;
   }
+}
+
+// Media Queries
+@mixin mq($break) {
+  @content;
 }
