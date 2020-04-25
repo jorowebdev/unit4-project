@@ -5,6 +5,10 @@
 .img {
   &-logo {
     @include centered('logo');
+    @include mq($break-m) {
+      margin-left: initial;
+      margin-right: initial;
+    }
   }
   &-avatar {
     @include centered('avatar');

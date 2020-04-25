@@ -601,6 +601,12 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+@media (min-width: 768px) {
+  .img-logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
 .img-avatar {
   display: block;
   margin-left: auto;
