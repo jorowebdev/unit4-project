@@ -14,26 +14,19 @@
   justify-content: $just;
 }
 
-// Shared image properties
-// @mixin images {
-//   display: block;
-//   margin-left: auto;
-//   margin-right: auto;
-//   margin-top: 10px;
-//   max-width: 100%;
-// }
+// Create a centered element
 
-// Create if mixin for image rule, based on if $style == 'logo'
-@mixin image($style) {
-  &-#{$style} {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+@mixin centered($style) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-    @if $style != 'logo' {
-      margin-top: 10px;
-      max-width: 100%;
-      @content;
-    }
+  @if $style == 'avatar' or $style == 'frame'  {
+    margin-top: 10px;
+    max-width: 100%;
+    @content;
+  }
+  @else if $style == 'container' {
+    max-width: 1400px;
   }
 }
