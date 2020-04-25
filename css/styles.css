@@ -527,6 +527,14 @@ a {
   flex-basis: 100%;
 }
 
+@media (min-width: 768px) {
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
