@@ -25,6 +25,10 @@
   border-radius: 5px;
 }
 
+[class^=col] {
+  @extend %col;
+}
+
 @each $theme, $color in $column-themes {
   .theme.col-#{$theme} {
     background-color: $color;
