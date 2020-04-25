@@ -479,6 +479,14 @@ a {
   padding: 10px;
   border-radius: 5px;
 }
+@media (min-width: 768px) {
+  .theme.col-12, .theme.col-11, .theme.col-10, .theme.col-9, .theme.col-8, .theme.col-7, .theme.col-6, .theme.col-5, .theme.col-4, .theme.col-3, .theme.col-2, .theme.col-1, [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+}
 
 .theme.col-1 {
   background-color: #927bc1;
