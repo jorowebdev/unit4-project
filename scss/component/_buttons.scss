@@ -2,7 +2,7 @@
 /*              Buttons                          */
 /* ============================================= */
 
-%btn {
+.btn {
   margin-top: 15px;
   width: 100%;
   color: #fff;
@@ -10,11 +10,18 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  @include mq($break-m) {
+    padding: 10px 30px;
+  }
+  & + & {
+    @include mq($break-m) {
+    margin-left: 10px;
+    }
+  }
 }
 
 @each $theme, $color in $button-themes {
   .#{$theme} {
     background-color: $color;
-    @extend %btn;
   }
 }

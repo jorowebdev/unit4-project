@@ -391,7 +391,7 @@ a {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-.warning, .success, .info, .error, .default {
+.btn {
   margin-top: 15px;
   width: 100%;
   color: #fff;
@@ -399,6 +399,16 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+}
+@media (min-width: 768px) {
+  .btn {
+    padding: 10px 30px;
+  }
+}
+@media (min-width: 768px) {
+  .btn + .btn {
+    margin-left: 10px;
+  }
 }
 
 .default {
